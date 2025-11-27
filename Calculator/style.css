@@ -1,0 +1,84 @@
+/* Basic reset to remove default margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Simple font */
+}
+
+body {
+    background-color: #e6e6e6; /* Light gray background */
+    height: 100vh; /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The main calculator shell */
+.calculator-box {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+
+/* The input screen styling */
+#screen {
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Using CSS Grid for button alignment */
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between buttons */
+}
+
+/* General button styling */
+.btn {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+/* Specific colors for operators */
+.operator {
+    background-color: #ffad33; /* Orange */
+    color: white;
+}
+
+.clear-btn {
+    background-color: #ff4d4d; /* Red */
+    color: white;
+}
+
+/* Make the equal button tall (span 2 rows) */
+.equal-btn {
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    height: 100%;
+}
+
+/* Make the zero button wide (span 2 columns) */
+.zero-btn {
+    grid-column: 1 / 3;
+}
