@@ -20,4 +20,4 @@ This project is a functional web-based calculator developed for the **CodSoft We
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/DevAnuj772/Calculator.git](https://github.com/DevAnuj772/Calculator.git)
+   git clone : [https://devanuj772.github.io/CODESOFT-PROJECTS/Calculator]
