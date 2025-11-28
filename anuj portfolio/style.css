@@ -2,26 +2,23 @@
     margin: 0;
     padding: 0;
 }
-
 html {
     scroll-behavior: smooth;
 }
 
-
 body {
-    background-color: rgb(0, 0, 33);
+    /* Changed to a cleaner Deep Slate Navy for a modern look */
+    background-color: rgb(11, 17, 32); 
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 
-
 .Left {
     font-size: 1.5rem;
     font-weight: 700;
-    text-shadow: 0 0 12px #d4b5f3;
+    /* Updated glow to a Cyan hue */
+    text-shadow: 0 0 12px #22d3ee; 
 }
-
-
 
 /* NAVBAR */
 nav {
@@ -30,17 +27,19 @@ nav {
     align-items: center;
     height: 70px;
     padding: 0 20px;
-    background-color: rgba(18, 18, 62, 0.85);
+    /* Updated to match the new slate theme with transparency */
+    background-color: rgba(15, 23, 42, 0.85); 
     backdrop-filter: blur(8px);
     position: fixed;
     backdrop-filter: blur(6px);
     transition: 0.3s ease;
     width: 100%;
     box-sizing: border-box;
-
 }
 
-nav.scrolled {    background-color: rgba(7, 7, 91, 0.196);
+nav.scrolled {
+    /* Slightly darker on scroll */
+    background-color: rgba(2, 6, 23, 0.9); 
 }
 
 nav ul {
@@ -60,7 +59,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(220, 191, 252);
+    /* Hover effect changed to bright Cyan */
+    color: #22d3ee; 
 }
 
 .firstSection {
@@ -82,18 +82,19 @@ nav ul li a:hover {
     width: 25vh;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #8a2be2;
-    box-shadow: 0 0 20px #8a2be2;
+    /* Border and shadow changed to Electric Blue/Cyan */
+    border: 4px solid #06b6d4; 
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.6); 
 }
 
-
-
 .highlight {
-    color: rgb(123, 62, 189);
+    /* Accent color updated */
+    color: #22d3ee; 
 }
 
 #element {
-    color: rgb(123, 62, 189);
+    /* Accent color updated */
+    color: #22d3ee; 
     font-weight: 600;
     font-size: 2.2rem;
 }
@@ -106,7 +107,8 @@ nav ul li a:hover {
 }
 
 button {
-    background: linear-gradient(90deg, #21055e9a, #26025d);
+    /* Gradient changed from Purple to Blue-Teal Gradient */
+    background: linear-gradient(90deg, #0891b2, #2563eb); 
     color: white;
     padding: 12px 22px;
     border: none;
@@ -118,7 +120,8 @@ button {
 
 button:hover {
     transform: scale(1.07);
-    background: linear-gradient(90deg, #1f0248, #10035b);
+    /* Hover gradient shift */
+    background: linear-gradient(90deg, #0e7490, #1d4ed8); 
 }
 
 .secondSection {
@@ -130,14 +133,16 @@ button:hover {
 .secondSection h1 {
     font-size: 2rem;
     margin-bottom: 15px;
-    border-left: 5px solid #8a2be2;
+    /* Border line updated to Cyan */
+    border-left: 5px solid #06b6d4; 
     padding-left: 12px;
 }
 
 .secondSection p,
 .secondSection ul li {
     font-size: 1.1rem;
-    color: #d4d4d4;
+    /* Text color updated to a cool gray for better readability on dark bg */
+    color: #cbd5e1; 
     margin-bottom: 10px;
     line-height: 1.6;
 }
@@ -149,11 +154,13 @@ button:hover {
 .secondSection h3 {
     font-size: 1.35rem;
     margin-top: 20px;
-    color: #b48cff;
+    /* Sub-heading color updated */
+    color: #67e8f9; 
 }
 
 #contact a {
-    color: #a97bff;
+    /* Link color updated */
+    color: #38bdf8; 
     text-decoration: none;
 }
 
@@ -165,19 +172,18 @@ hr {
     width: 90%;
     margin: 40px auto;
     border: 0;
-    border-top: 1px solid #333;
+    border-top: 1px solid #334155; /* Subtle border color */
 }
 
-
 footer {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(2, 6, 23, 0.5); /* Darker footer */
     padding: 20px;
     text-align: center;
     margin-top: 40px;
 }
 
 footer a {
-    color: rgb(123, 62, 189);
+    color: #22d3ee;
     margin: 0 5px;
 }
 
@@ -190,7 +196,6 @@ footer a {
 }
 
 /* RESPONSIVE DESIGN */
-
 
 /* Tablets */
 @media (max-width: 992px) {
@@ -222,7 +227,7 @@ footer a {
         position: fixed;
         width: 100%;
         box-sizing: border-box;
-        background-color: rgba(18, 18, 62, 0.85);
+        background-color: rgba(15, 23, 42, 0.95); /* Updated mobile nav bg */
         backdrop-filter: blur(8px);
         transition: 0.3s ease;
     }
@@ -237,13 +242,13 @@ footer a {
         cursor: pointer;
         color: white;
         margin-left: auto;
-        /* Push to right */
     }
 
     .Right ul {
         flex-direction: column;
         position: absolute;
-        background: rgb(18, 18, 62);
+        /* Mobile menu background updated */
+        background: rgb(15, 23, 42); 
         top: 64px;
         right: 7px;
         width: 64px;
@@ -254,6 +259,8 @@ footer a {
         text-align: right;
         align-items: flex-end;
         z-index: 999;
+        /* Added a small shadow for depth */
+        box-shadow: 0 4px 20px rgba(0,0,0,0.5); 
     }
 
     .Right ul.show {
