@@ -22,4 +22,4 @@ This project is a responsive ** Landing Page** developed as part of the **CodSof
 ## 🚀 How to Run Locally
 1. Clone the repository:
    cd landing-page
-       git clone : [https://devanuj772.github.io/CODESOFT-PROJECTS/LANDING%20PAGE%20CODSOFT/]
+       git clone : [https://github.com/DevAnuj772/CODESOFT-PROJECTS.git]
