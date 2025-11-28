@@ -67,14 +67,7 @@ The following technologies were used to build these projects:
 To view the designs locally:
 
 1.  Clone this repository:
-    ```bash
-  https://devanuj772.github.io/CODESOFT-PROJECTS/
-    ```
-2.  Navigate to the specific project folder:
-    ```bash
-    cd portfolio
-    ```
-3.  Open the `index.html` file in your web browser.
+   git clone https://github.com/DevAnuj772/CODESOFT-PROJECTS.git
 
 ## 📬 Contact
 * **Name:** [Anuj Tiwari]
