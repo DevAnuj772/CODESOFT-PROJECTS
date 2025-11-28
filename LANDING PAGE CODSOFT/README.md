@@ -1,5 +1,3 @@
-# Landing Page
-
 # Personal Portfolio Website
 
 🔗 **Live Demo:** [Click Here to View Website](devanuj772.github.io/CODESOFT-PROJECTS/LANDING%20PAGE%20CODSOFT)
