@@ -2,7 +2,7 @@
 
 # Personal Portfolio Website
 
-🔗 **Live Demo:** [Click Here to View Website](devanuj772.github.io/CODESOFT-PROJECTS/anuj%20portfolio)
+🔗 **Live Demo:** [Click Here to View Website](devanuj772.github.io/CODESOFT-PROJECTS/LANDING%20PAGE%20CODSOFT)
 
 ## 📄 Project Description
 This project is a responsive ** Landing Page** developed as part of the **CodSoft Web Development Internship**. The goal of this project was to design a visually appealing and high-converting landing page structure using pure HTML and CSS. It focuses on alignment, typography, and responsive web design principles.
