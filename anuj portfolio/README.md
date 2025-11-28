@@ -18,4 +18,4 @@ This repository serves as my submission for the **CodSoft Web Development Intern
 ## 🚀 How to Run Locally
 1. Clone the repository:
 cd portfolio-website
-   git clone [https://devanuj772.github.io/CODESOFT-PROJECTS/anuj%20portfolio/index.html](https://devanuj772.github.io/CODESOFT-PROJECTS/anuj%20portfolio/index.html)
+   git clone (https://github.com/DevAnuj772/CODESOFT-PROJECTS.git)
