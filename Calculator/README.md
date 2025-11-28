@@ -1,4 +1,4 @@
-# Web-Based Calculator
+# Calculator
 
 ## 📄 Project Description
 This project is a functional web-based calculator developed for the **CodSoft Web Development Internship**. It was built to satisfy specific technical requirements, utilizing **CSS Grid** for layout and **JavaScript** for logic handling. The application handles user inputs via event listeners and performs arithmetic operations dynamically.
@@ -19,5 +19,5 @@ This project is a functional web-based calculator developed for the **CodSoft We
 
 ## 🚀 How to Run Locally
 1. Clone the repository:
-   ```bash
-   git clone : [https://devanuj772.github.io/CODESOFT-PROJECTS/Calculator]
+ cd Calculator
+   git clone [DevAnuj772/CODESOFT-PROJECTS/new/main/LANDING%20PAGE%20CODSOFTdevanuj772.github.io/CODESOFT-PROJECTS/Calculator/](DevAnuj772/CODESOFT-PROJECTS/new/main/LANDING%20PAGE%20CODSOFTdevanuj772.github.io/CODESOFT-PROJECTS/Calculator/)
