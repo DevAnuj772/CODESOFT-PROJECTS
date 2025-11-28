@@ -2,7 +2,7 @@
 
 # Personal Portfolio Website
 
-🔗 **Live Demo:** [Click Here to View Website](DevAnuj772/CODESOFT-PROJECTS/new/main/LANDING%20PAGE%20CODSOFTdevanuj772.github.io/CODESOFT-PROJECTS/Calculator/)
+🔗 **Live Demo:** [Click Here to View Website](https://devanuj772.github.io/CODESOFT-PROJECTS/Calculator)
 
 
 ## 📄 Project Description
