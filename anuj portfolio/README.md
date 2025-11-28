@@ -1,11 +1,6 @@
 # Personal Portfolio Website
 
-🔗 **Live Demo:** [Click Here to View Website](devanuj772.github.io/CODESOFT-PROJECTS/anuj%20portfolio/)
-
-## 📄 Project Description
-...
-
-
+🔗 **Live Demo:** [Click Here to View Website](https://devanuj772.github.io/CODESOFT-PROJECTS/anuj%20portfolio/)
 
 
 ## 📄 Project Description
