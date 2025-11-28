@@ -15,7 +15,7 @@ The repository is organized into three main project directories:
 ## 🚀 Projects Breakdown
 
 ### 1. Personal Portfolio Website
-**Directory:** `/portfolio` (Change this to your actual folder name)
+**Directory:** `/portfolio` (anuj portfolio)
 
 A responsive personal portfolio layout designed to present professional background and skills.
 * **Focus:** Semantic HTML structure and CSS styling.
