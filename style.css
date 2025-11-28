@@ -1,98 +1,299 @@
-/* GLOBAL STYLES */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #121212; /* Dark Background */
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 2rem;
-}
-
-/* HEADER */
-header {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-    color: #ff4757; /* Red Accent */
-}
-
-header p {
-    color: #a4b0be;
-    font-size: 1.1rem;
-}
-
-/* GRID CONTAINER */
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    width: 100%;
-    max-width: 1000px;
-}
-
-/* PROJECT CARDS */
-.card {
-    background-color: #1e1e1e; /* Darker Card Color */
-    border: 1px solid #333;
-    border-radius: 12px;
-    padding: 2rem;
-    text-align: center;
-    transition: transform 0.3s ease, border-color 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.card:hover {
-    transform: translateY(-5px); /* Lift effect */
-    border-color: #ff4757; /* Red border on hover */
-    box-shadow: 0 10px 20px rgba(255, 71, 87, 0.2);
-}
-
-.card h2 {
-    margin-bottom: 1rem;
-    color: #fff;
-}
-
-.card p {
-    color: #ccc;
-    margin-bottom: 1.5rem;
-    font-size: 0.95rem;
-    line-height: 1.5;
-}
-
-/* BUTTONS */
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background-color: #ff4757;
+    /* Changed to a cleaner Deep Slate Navy for a modern look */
+    background-color: rgb(11, 17, 32); 
     color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Left {
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* Updated glow to a Cyan hue */
+    text-shadow: 0 0 12px #22d3ee; 
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    /* Updated to match the new slate theme with transparency */
+    background-color: rgba(15, 23, 42, 0.85); 
+    backdrop-filter: blur(8px);
+    position: fixed;
+    backdrop-filter: blur(6px);
+    transition: 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav.scrolled {
+    /* Slightly darker on scroll */
+    background-color: rgba(2, 6, 23, 0.9); 
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
     text-decoration: none;
-    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+}
+
+nav ul li a:hover {
+    /* Hover effect changed to bright Cyan */
+    color: #22d3ee; 
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.leftSection {
+    font-size: 3rem;
+    flex: 1;
+}
+
+.rightSection img {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    object-fit: cover;
+    /* Border and shadow changed to Electric Blue/Cyan */
+    border: 4px solid #06b6d4; 
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.6); 
+}
+
+.highlight {
+    /* Accent color updated */
+    color: #22d3ee; 
+}
+
+#element {
+    /* Accent color updated */
+    color: #22d3ee; 
     font-weight: 600;
-    transition: background-color 0.3s ease;
+    font-size: 2.2rem;
 }
 
-.btn:hover {
-    background-color: #e84118;
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
 }
 
-/* FOOTER */
+button {
+    /* Gradient changed from Purple to Blue-Teal Gradient */
+    background: linear-gradient(90deg, #0891b2, #2563eb); 
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+button:hover {
+    transform: scale(1.07);
+    /* Hover gradient shift */
+    background: linear-gradient(90deg, #0e7490, #1d4ed8); 
+}
+
+.secondSection {
+    width: 80%;
+    margin: 60px auto;
+    padding: 10px 0;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    /* Border line updated to Cyan */
+    border-left: 5px solid #06b6d4; 
+    padding-left: 12px;
+}
+
+.secondSection p,
+.secondSection ul li {
+    font-size: 1.1rem;
+    /* Text color updated to a cool gray for better readability on dark bg */
+    color: #cbd5e1; 
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.secondSection ul {
+    padding-left: 20px;
+}
+
+.secondSection h3 {
+    font-size: 1.35rem;
+    margin-top: 20px;
+    /* Sub-heading color updated */
+    color: #67e8f9; 
+}
+
+#contact a {
+    /* Link color updated */
+    color: #38bdf8; 
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 90%;
+    margin: 40px auto;
+    border: 0;
+    border-top: 1px solid #334155; /* Subtle border color */
+}
+
 footer {
-    margin-top: auto;
-    padding-top: 3rem;
-    color: #555;
-    font-size: 0.9rem;
+    background-color: rgba(2, 6, 23, 0.5); /* Darker footer */
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #22d3ee;
+    margin: 0 5px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+    color: white;
+    margin-left: auto;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .firstSection {
+        text-align: center;
+    }
+
+    .leftSection {
+        font-size: 2.4rem;
+    }
+
+    #element {
+        font-size: 1.9rem;
+    }
+
+    .secondSection {
+        width: 90%;
+    }
+}
+
+/* MOBILE NAVBAR + PHONE VIEW */
+@media (max-width: 768px) {
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 10px;
+        position: fixed;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: rgba(15, 23, 42, 0.95); /* Updated mobile nav bg */
+        backdrop-filter: blur(8px);
+        transition: 0.3s ease;
+    }
+
+    .Left {
+        flex: 1;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 32px;
+        cursor: pointer;
+        color: white;
+        margin-left: auto;
+    }
+
+    .Right ul {
+        flex-direction: column;
+        position: absolute;
+        /* Mobile menu background updated */
+        background: rgb(15, 23, 42); 
+        top: 64px;
+        right: 7px;
+        width: 64px;
+        gap: 14px;
+        padding: 23px 26px;
+        border-radius: 27px;
+        display: none;
+        text-align: right;
+        align-items: flex-end;
+        z-index: 999;
+        /* Added a small shadow for depth */
+        box-shadow: 0 4px 20px rgba(0,0,0,0.5); 
+    }
+
+    .Right ul.show {
+        display: flex;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 360px) {
+    .leftSection {
+        font-size: 1.6rem;
+    }
+
+    #element {
+        font-size: 1.2rem;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .rightSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 220px;
+        height: 220px;
+        margin: 0 auto;
+        display: block;
+    }
 }
